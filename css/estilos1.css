@@ -1,0 +1,78 @@
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-image: url('../img/logo_ESPE.png');
+            background-size: cover;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background-color: salmon;
+            border-radius: 100px;
+            box-shadow: 0 0 10px rgba(253, 252, 252, 0.1);
+            padding: 20px;
+            width: 50%;
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0d0e0e;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            color: #0a090a;
+        }
+
+        input,
+        select {
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            padding: 10px;
+            width: 100%;
+        }
+
+        button {
+            background-color: #007bff;
+            border: 1px solid #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            border: 1px solid #0056b3;
+            text-align: center;
+        }
+
+        .icon {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            stroke-width: 0;
+            stroke: currentColor;
+            fill: currentColor;
+        }
+        .icon {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            stroke-width: 0;
+            stroke: currentColor;
+            fill: currentColor;
+          }
